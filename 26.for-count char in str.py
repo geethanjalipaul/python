@@ -1,7 +1,8 @@
-str=list("malayalam")
+str=list(input("Enter the string"))
+i=0
 for i in str:
-    c=0
     if(i!=" "):
+        c=0
         for j in range(0,len(str)):
             if(i==str[j]):
                 c=c+1

@@ -1,6 +1,7 @@
 x=int(input("Enter the first number:"))
 y=int(input("Enter the second number:"))
+sum=0
 while(x<=y):
-    if(x%2==0):
-        print(x)
+    sum=sum+x
     x=x+1
+print("sum=",sum)
