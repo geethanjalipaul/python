@@ -1,4 +1,4 @@
-a=int(input("Enter the first number:"))
+a=int(input("Enter the number:"))
 def oddoreven(a):
     if(a%2==0):
         print("The number is even")

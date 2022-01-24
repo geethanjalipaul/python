@@ -6,7 +6,9 @@ def fnlist(l1,l2):
         for j in l2:
             if(i==j):
                 return(True)
+            else:
+                return(False)
 if(fnlist(l1,l2)):
    print("Common elements exist")
 else:
-    print("Common elements doesnot exist")
+    print("Common elements does not exist")
